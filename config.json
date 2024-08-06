@@ -1,0 +1,42 @@
+{
+  "bars": {
+    "eDP-1": {
+      "spacing": 8,
+      "start": ["workspaces"],
+      "center": ["windowtitle"],
+      "end": ["player", "clock", "idleinhibitor", "systray"]
+    },
+    "HDMI-A-1": {
+      "spacing": 8,
+      "start": ["workspaces"],
+      "center": ["windowtitle"],
+      "end": ["player", "clock", "idleinhibitor", "systray"]
+    }
+  },
+  "workspaces": {
+    "formatIcons": {
+      "1": "",
+      "2": "",
+      "3": "󰘦",
+      "4": "",
+      "5": "",
+      "6": "󰍪",
+      "7": "󰖺",
+      "8": "󰎁",
+      "9": "󰎈",
+      "10": "",
+      "urgent": "",
+      "focused": "",
+      "default": ""
+    },
+    "persistentWorkspaces": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+  },
+  "windowtitle": {
+    "text": "app",
+    "showIcon": true,
+    "tooltipText": "window"
+  },
+  "clock": {
+    "timeFormat": "+%I:%M:%S %p %b %e"
+  }
+}
